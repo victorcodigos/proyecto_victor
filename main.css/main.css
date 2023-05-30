@@ -11,7 +11,16 @@
     box-sizing: border-box;
 }
 
-body, html {
+header {
+
+    font-size: medium;
+    box-sizing: border-box;
+    margin-top: 20px;
+    
+
+}
+ 
+html {
 
     width: 100vw;
     height: 100vh;
@@ -20,13 +29,40 @@ body, html {
 body {
 
     background: rgb(183, 147, 147) url(../assets/Imagen-medias/fundo3.jpg) repeat;
-}
-
-img {
-
-   box-sizing: border-box;
-   max-width: 200px;
-   
-   
+    background-size: cover;
+    background-position: center center ;
 
 }
+
+main {
+
+    background-color: rgb(243, 202, 222);
+    width: 90vw;
+    margin: auto;
+    margin-top: 100px;
+    border-radius:  10px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 15mm;
+    text-align:  center;
+    margin-top: 30px;
+    color: rgb(9, 12, 109);
+    text-shadow:  2px 2px 2px black;
+
+
+}
+
+
+img{
+    
+    display: block;
+    margin: auto;
+}
+
+img#phone { display:flex}
+img#tablet { display: flex;}
+img#tele { display: flex;}
+
+
