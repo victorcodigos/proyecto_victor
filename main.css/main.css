@@ -54,6 +54,13 @@ h1 {
 
 }
 
+h2 {
+
+    font-size-adjust: initial;
+    color: aliceblue;
+    box-shadow: 2%;
+}
+
 
 img{
     
