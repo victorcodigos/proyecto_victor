@@ -1,0 +1,64 @@
+@charset "UTF -8";
+
+
+/* todos dispositivos */
+
+/* typical Device Breakpoints 
+////////////////////////////
+
+*/ 
+
+/* W3C
+
+SMALL sreen: until 600px
+PHONE FROM 600PX HASTA 768PX
+TABLET: FROM 768PX UNTIL 992PX
+DESKTOP (TELE) FROM 992 PX UNTIL 1200PX
+BIG SCREEN: MORE THAN 1200PX
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+
+        background-image: url(../assets/Imagen-medias/fundo4.jpg);
+    }
+
+img#phone { display: none; }
+img#tablet {display: block;}
+img#tele { display: none;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+
+    body {
+
+        background-image: url(../assets/Imagen-medias/fundo5.jpg);
+    
+    }
+
+img#phone { display: none;}
+img#tablet {display: none;}
+img#tele { display: block;}
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+
+        background-image: url(../assets/Imagen-medias/fundo6.jpg);
+    
+    }
+
+img#phone { display: block;}
+img#tablet {display: none;}
+img#tele { display: none;}
+
+
+
+}
