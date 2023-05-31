@@ -77,6 +77,16 @@ h2 {
     box-shadow: 5%;
 }
 
+footer {
+
+    text-align: center;
+    color: white; 
+    text-shadow: 1px 1px 1px;
+    background-size: cover;
+
+
+}
+
 
 img{
     
