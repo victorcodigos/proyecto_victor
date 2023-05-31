@@ -87,16 +87,23 @@ footer {
 
 }
 
+.flexContainer {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 img{
     
     display: block;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 
-img#phone { display: flex;}
-img#tablet { display: flex;}
-img#tele { display: flex;}
+img#phone { flex-wrap: wrap;}
+img#tablet { flex-wrap: wrap;}
+img#tele { flex-wrap: wrap;}
 
 
