@@ -22,7 +22,7 @@ BIG SCREEN: MORE THAN 1200PX
 
     body {
 
-        background-image: url(../assets/Imagen-medias/fundo4.jpg);
+        background-image: url(../assets/imagens/fundo4.jpg);
     }
 
 img#phone { display: none; }
@@ -35,7 +35,7 @@ img#tele { display: none;}
 
     body {
 
-        background-image: url(../assets/Imagen-medias/fundo5.jpg);
+        background-image: url(../assets/imagens/fundo5.jpg);
     
     }
 
@@ -51,7 +51,7 @@ img#tele { display: block;}
 
     body {
 
-        background-image: url(../assets/Imagen-medias/fundo6.jpg);
+        background-image: url(../assets/imagens/fundo6.jpg);
     
     }
 

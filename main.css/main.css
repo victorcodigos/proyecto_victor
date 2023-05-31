@@ -4,47 +4,59 @@
 
 * {
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.3em;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
 }
 
 header {
+ 
+      font-size: medium;
+      box-sizing: border-box;
+      margin-top: 10px;
+      color: white;
 
-    font-size: medium;
-    box-sizing: border-box;
-    margin-top: 20px;
-    color: white;
 
-    
+}
+
+nav {
+
+      background: rgba(196, 219, 233, 0.66) url(../assets/imagens/search.png) no-repeat;
+      background-size:cover;
+      margin-top: 5%; 
+      width: 700px;
+      background-position: center center;
+      
+
+
 
 }
  
 html {
 
-    width: 100vw;
-    height: 100vh;
+     width: 100vw;
+     height: 100vh;
 }
 
 body {
 
-    background: rgb(183, 147, 147) url(../assets/Imagen-medias/fundo3.jpg) repeat;
-    background-size: cover;
-    background-position: center center ;
+     background: rgb(183, 147, 147) url(../assets/imagens/fundo3.jpg);
+     background-size: cover;
+     background-position: center center ;
 
 } 
 
 section {
 
-        background: rgb(74, 98, 236) url(../assets/Imagen-medias/fundo5.jpg) repeat;
-        background-size: cover;
-        background-position: center center ;
-        text-align:center, right;
-        box-sizing: border-box;
-        font-style: normal;
-        font-size: 70%;
+     background: rgb(74, 98, 236) url(../assets/imagens/fundo5.jpg) no-repeat;
+     background-size: cover;
+     background-position: center center ;
+     text-align:center, right;
+     box-sizing: border-box;
+     font-style: normal;
+     font-size: 70%;
         
 }
  
@@ -57,7 +69,7 @@ main {
     margin: auto;
     margin-top: 100px;
     border-radius:  10px;
-    padding: 10px;
+    padding: 20px;
 }
 
 h1 {
@@ -105,5 +117,3 @@ img{
 img#phone { flex-wrap: wrap;}
 img#tablet { flex-wrap: wrap;}
 img#tele { flex-wrap: wrap;}
-
-
